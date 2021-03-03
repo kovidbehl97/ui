@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+// 1. Configuration and helpers
+@import
+  'abstracts/mixins';
+
+// 2. Vendors
+@import
+  'vendors/tailwind.css';
+
+
+
+// 3. Base stuff
+@import
+  'base/base',
+  'base/fonts',
+  'base/icons';
+
+// 5. Components
+@import
+  'components/button',
+  'components/cards',
+  'components/forms',
+  'components/dropdown',
+  'components/alerts';
+
+// 7. Themes
+@import
+  'themes/default';
